@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@android:color/darker_gray"
+        android:id="@+id/LeftButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/ipbox"
+        android:textColor="#000000"
+        android:hint="Enter Server IP"
+        android:inputType="none"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text=""
+        android:background="@android:color/darker_gray"
+        android:id="@+id/RightButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LeftButton"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/ipbox"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/mousePad"/>
+
+    <Button
+        android:text="Kboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mousePad"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kbtn" />
+</RelativeLayout>

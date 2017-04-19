@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ahk.wito.com.wi_to.MainActivity">
+
+    <item android:id="@+id/action_connect" android:title="Connect"
+    android:icon="@drawable/googlecastlogo" app:showAsAction="ifRoom" />
+
+</menu>
